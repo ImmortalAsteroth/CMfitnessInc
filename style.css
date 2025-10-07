@@ -18,3 +18,18 @@ h1{margin:0 0 8px;font-size:clamp(1.6rem,3.5vw,2.6rem)}
 section{background:white;padding:20px;border-radius:8px;margin-bottom:16px;box-shadow:0 6px 18px rgba(0,0,0,.06)}
 .site-footer{text-align:center;padding:18px 10px;color:#555}
 a{color:var(--accent);text-decoration:none}
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: var(--accent);
+  padding: 12px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
